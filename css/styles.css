@@ -912,12 +912,16 @@ body {
     padding: 0 4vw;
   }
 
+  #work .work_tit h2 {
+    font-size: 8rem;
+  }
+
   #work .work_tit {
     margin-bottom: 3vh;
   }
 
   #work .work_tit .tit_02 {
-    margin-left: 16vw;
+    margin-left: 18vw;
   }
 
   #work .work_tit .desc {
@@ -953,6 +957,10 @@ body {
   #footer .wrap {
     margin: 5vh 0 2vh;
     padding: 0 4vw;
+  }
+
+  #footer .tit h2, #footer .tit h2.cormo {
+    font-size: 6rem;
   }
 
   #footer .tit h2 span, #footer .contact p {
