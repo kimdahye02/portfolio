@@ -872,10 +872,10 @@ body {
 @media all and (max-width:576px){
 
   .hd_box_wrap {
-    width: 20.2vw;
+    width: 22vw;
   }
   .hd_box_wrap .hd_box p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   #nav li a {
@@ -893,6 +893,7 @@ body {
 
   #visual .mtxt .point_box {
     width: 33vw;
+    padding: 1.4vh 0;
   }
 
   .mtxt_04 img {
@@ -902,6 +903,15 @@ body {
   #scroll_flow {
     height: 7vh;
     line-height: 7vh;
+  }
+
+  #scroll_flow .flow_wrap img {
+    margin: 0 2vw;
+    width: 2.8vw;
+  }
+
+  #work {
+    padding: 0 4vw;
   }
 
   #work .work_tit {
@@ -924,13 +934,17 @@ body {
     margin-bottom: 6vh;
   }
 
+  .work_list .img_box span {
+    font-size: 1.4rem;
+  }
+
   .work_list p {
-    /* font-size: 3.8vw; */
+    padding: 4vw 2vw 0;
   }
 
   #work .work_tit .tit_02 img {
       top: 5px;
-      width: 10vw;
+      width: 12vw;
   }
 
   .more_btn .moreBtn {
@@ -940,6 +954,7 @@ body {
 
   #footer .wrap {
     margin: 4vh 0 2vh;
+    padding: 0 4vw;
   }
 
   #footer .tit h2 span, #footer .contact p {
@@ -948,7 +963,7 @@ body {
 
   #footer .tit h2 img {
     margin-top: 5px;
-    width: 10vw;
+    width: 12vw;
   }
 
 
