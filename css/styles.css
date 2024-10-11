@@ -727,7 +727,7 @@ body {
 }
 
 
-/*태블릿 세로*/
+/*태블릿*/
 @media all and (max-width:767px){
   
   .hd_box_wrap {
@@ -825,20 +825,27 @@ body {
 	
 }
 
-/*모바일 : -479px*/
-@media all and (max-width:479px){
+/*모바일*/
+@media all and (max-width:576px){
 
   .hd_box_wrap {
     width: 20.2vw;
   }
-
   .hd_box_wrap .hd_box p {
-    /* font-size: 2.2vw; */
+    font-size: 1.4rem;
   }
 
   #nav li a {
-    /* font-size: 3.2vw; */
+    font-size: 1.8rem;
     margin: 0 15px;
+  }
+
+  #visual .mtxt h2.cormo, #visual .mtxt h2 {
+    font-size: 5.5rem;
+  }
+
+  #visual .mtxt p {
+    font-size: 1.8rem;
   }
 
   #scroll_flow {
@@ -846,18 +853,53 @@ body {
     line-height: 7vh;
   }
 
-  #scroll_flow .flow_wrap div {
-    /* font-size: 3.8vw; */
+  #work .work_tit {
+    margin-bottom: 3vh;
+  }
+
+  #work .work_tit .tit_02 {
+    margin-left: 16vw;
+  }
+
+  #work .work_tit .desc {
+    display: none;
   }
 
   .work_list {
     display: block;
   }
 
+  .work_list li {
+    margin-bottom: 6vh;
+  }
+
   .work_list p {
     /* font-size: 3.8vw; */
-}
+  }
 
+  #work .work_tit .tit_02 img {
+    display: none;
+  }
 
-	
+  .more_btn .moreBtn {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  #footer .wrap {
+    margin: 4vh 0 2vh;
+  }
+
+  #footer .tit h2 span, #footer .contact p {
+    font-size: 1.8rem;
+  }
+
+  #footer .contact {
+    margin: 4vh 0 6vh;
+  }
+
+  #footer .copy p {
+    font-size: 1.4rem;
+  }
+
 }
