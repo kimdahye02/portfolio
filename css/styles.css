@@ -685,7 +685,7 @@ body {
 
   #work .work_tit .desc {
     font-size: 1.8rem;
-    left: 28vw;
+    left: 29vw;
   }
 
   .work_list li {
@@ -719,7 +719,7 @@ body {
   }
 
   #footer .contact {
-    margin: 6vh 0 10vh;
+    margin: 4vh 0 8vh;
   }
 
   #footer .copy p {
