@@ -619,9 +619,19 @@ body {
 
 
 @media all and (max-width:1024px) {
+  #header {
+    height: 7.4vh;
+  }
+
+  #nav {
+    top: 2.6vh;
+  }
 
   .hd_box_wrap {
     width: 16vw;
+    height: 3.8vh;
+    line-height: 3.8vh;
+    top: 2vh;
   }
   
 
@@ -634,14 +644,14 @@ body {
   }
 
   #visual, .mtxt_wrap {
-    height: 70vh;
+    height: 60vh;
   }
 
   #visual .mtxt p {
     font-size: 2.2rem;
   }
   #visual .mtxt .point_box {
-    padding: 3vh 0;
+    padding: 1.6vh 0;
   }
 
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
@@ -649,8 +659,8 @@ body {
   }
 
   #scroll_flow {
-    height: 8vh;
-    line-height: 8vh;
+    height: 6vh;
+    line-height: 6vh;
   }
 
   #scroll_flow .flow_wrap div {
@@ -658,7 +668,7 @@ body {
   }
 
   #work {
-    margin: 15vh 0;
+    margin: 10vh 0;
   }
 
   #work .work_tit h2 {
@@ -697,11 +707,11 @@ body {
   }
 
   #footer .wrap {
-    margin: 16vh 0 4vh;
+    margin: 6vh 0 3vh;
   }
 
   #footer .tit h2, #footer .tit h2.cormo {
-    font-size: 11rem;
+    font-size: 10rem;
   }
 
   #footer .tit h2 span, #footer .contact p {
@@ -709,7 +719,7 @@ body {
   }
 
   #footer .contact {
-    margin: 8vh 0 13.7vh;
+    margin: 6vh 0 10vh;
   }
 
   #footer .copy p {
