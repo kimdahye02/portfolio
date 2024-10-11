@@ -949,17 +949,22 @@ body {
   }
 
   .more_btn .moreBtn {
-    width: 18vw;
-    height: 18vw;
+    width: 24vw;
+    height: 24vw;
   }
 
   #footer .wrap {
-    margin: 4vh 0 2vh;
+    margin: 5vh 0 2vh;
     padding: 0 4vw;
   }
 
   #footer .tit h2 span, #footer .contact p {
     font-size: 1.8rem;
+  }
+
+}
+  #footer .tit h2 span {
+      top: -6vw;
   }
 
   #footer .tit h2 img {
