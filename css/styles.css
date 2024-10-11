@@ -13,7 +13,7 @@ html {
 
 body {
   background-color: #080702;
-  font-family:'Pretendard', dotum, sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 .clearfix::after {
@@ -879,16 +879,24 @@ body {
   }
 
   #nav li a {
-    font-size: 1.8rem;
-    margin: 0 15px;
+    font-size: 1.6rem;
+    margin: 0px 10px;
   }
 
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
-    font-size: 5.5rem;
+    font-size: 4.6rem;
   }
 
   #visual .mtxt p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  #visual .mtxt .point_box {
+    width: 33vw;
+  }
+
+  .mtxt_04 img {
+    margin-right: 2vw;
   }
 
   #scroll_flow {
