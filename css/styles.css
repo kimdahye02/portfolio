@@ -558,6 +558,10 @@ body {
 }
 
 @media all and (max-width:1280px) {
+
+  .hd_box_wrap {
+    width: 18vw;
+  }
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
     font-size: 12rem;
   }
@@ -604,6 +608,7 @@ body {
   .hd_box_wrap {
     width: 16vw;
   }
+  
 
   .hd_box_wrap .hd_box p {
     font-size: 1.6rem;
