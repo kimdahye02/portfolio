@@ -962,7 +962,6 @@ body {
     font-size: 1.8rem;
   }
 
-}
   #footer .tit h2 span {
       top: -6vw;
   }
@@ -974,7 +973,7 @@ body {
 
 
   #footer .contact {
-    margin: 4vh 0 6vh;
+    margin: 7vh 0 6vh;
   }
 
   #footer .copy p {
