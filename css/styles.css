@@ -38,6 +38,9 @@ body {
   visibility: visible;
 }
 
+.cursor { position: absolute; top: 0; left: 0; width: 40px; height: 40px; background-color: #bfff07; border-radius: 50%; z-index: 9999; pointer-events: none; transition: transform 200ms ease-out; mix-blend-mode: difference; } 
+.cursor.cursor_expand { transform: scale(1.5); } 
+
 .point_color {
   color: #bfff07;
 }
@@ -352,8 +355,23 @@ body {
 #work .work_tit .tit_02 img {
   position: absolute;
   top: 24px;
-  right: 0;
-  transform: rotate(90deg);
+  right: 1vw;
+  width: 7.5vw;
+  animation-name: arr_ico_1;
+  animation-duration:1.5s;
+  animation-iteration-count:infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes arr_ico_1{
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0%, 10%);
+  }
 }
 
 #work .work_tit .num {
@@ -497,6 +515,22 @@ body {
 
 #footer .tit h2 img {
   margin-left: 20px;
+  width: 7.5vw;
+  animation-name: arr_ico_2;
+  animation-duration:1.5s;
+  animation-iteration-count:infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes arr_ico_2{
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0%, 10%);
+  }
 }
 
 #footer .contact {
@@ -795,7 +829,7 @@ body {
   }
 
   #work .work_tit .desc {
-    left: 30vw;
+    display: none;
   }
 
   .work_list .img_box {
@@ -888,7 +922,8 @@ body {
   }
 
   #work .work_tit .tit_02 img {
-    display: none;
+      top: 5px;
+      width: 10vw;
   }
 
   .more_btn .moreBtn {
@@ -902,6 +937,16 @@ body {
 
   #footer .tit h2 span, #footer .contact p {
     font-size: 1.8rem;
+  }
+
+  #footer .tit h2 img {
+    margin-top: 5px;
+    width: 10vw;
+  }
+
+   #footer .tit h2 img {
+    margin-top: 5px;
+    width: 10vw;
   }
 
   #footer .contact {
