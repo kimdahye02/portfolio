@@ -103,7 +103,9 @@ body {
 }
 
 #nav {
-  float: right;
+  position: absolute;
+  right: 2vw;
+  top: 4.3vh;
   animation: fade-in 5s;
 }
 
@@ -459,7 +461,7 @@ body {
 }
 
 #footer .wrap {
-  margin: 20vh 0 4vh;
+  margin: 15vh 0 4vh;
   padding: 0 2vw;
 }
 
@@ -543,6 +545,10 @@ body {
     font-size: 16rem;
   }
 
+  #work .work_tit .desc {
+    left: 32vw;
+  }
+
   #scroll_flow {
     height: 12vh;
     line-height: 12vh;
@@ -563,7 +569,14 @@ body {
     width: 18vw;
   }
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
-    font-size: 12rem;
+    font-size: 11rem;
+  }
+
+  #visual .mtxt .point_box {
+    padding: 2vh 0;
+  }
+  #visual .mtxt p {
+    font-size: 2.8rem;
   }
 
   #work .work_tit h2 {
@@ -600,10 +613,12 @@ body {
 }
 
 /*태블릿 가로 : 769px-1023px*/
-/* @media all and (min-width:768px) and (max-width:1023px){ */
+@media all and (min-width:768px) and (max-width:1024px){
+
+}
 
 
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
 
   .hd_box_wrap {
     width: 16vw;
@@ -618,6 +633,10 @@ body {
     font-size: 2.2rem;
   }
 
+  #visual, .mtxt_wrap {
+    height: 70vh;
+  }
+
   #visual .mtxt p {
     font-size: 2.2rem;
   }
@@ -629,13 +648,9 @@ body {
     font-size: 10rem;
   }
 
-  #visual, .mtxt_wrap {
-    height: 80vh;
-  }
-
   #scroll_flow {
-    height: 9vh;
-    line-height: 9vh;
+    height: 8vh;
+    line-height: 8vh;
   }
 
   #scroll_flow .flow_wrap div {
@@ -647,7 +662,11 @@ body {
   }
 
   #work .work_tit h2 {
-    font-size: 12rem;
+    font-size: 11rem;
+  }
+
+  #work .work_tit .tit_02 {
+    margin-left: 12vw;
   }
 
   #work .work_tit .num {
@@ -656,14 +675,11 @@ body {
 
   #work .work_tit .desc {
     font-size: 1.8rem;
+    left: 28vw;
   }
 
-  #work .work_tit .desc {
-    left: 30vw;
-  }
-  
   .work_list li {
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   .work_list .img_box {
@@ -677,6 +693,7 @@ body {
   .more_btn .moreBtn {
     width: 16vw;
     height: 16vw;
+    font-size: 2.4rem;
   }
 
   #footer .wrap {
@@ -684,7 +701,7 @@ body {
   }
 
   #footer .tit h2, #footer .tit h2.cormo {
-    font-size: 12rem;
+    font-size: 11rem;
   }
 
   #footer .tit h2 span, #footer .contact p {
@@ -700,6 +717,15 @@ body {
   }
 
 }
+
+@media all and (max-width:960px){
+  
+  #work .work_tit .desc {
+    left: 32vw;
+  }
+
+}
+
 
 /*태블릿 세로*/
 @media all and (max-width:767px){
@@ -759,7 +785,7 @@ body {
   }
 
   #work .work_tit .desc {
-    left: 34vw;
+    left: 30vw;
   }
 
   .work_list .img_box {
@@ -785,7 +811,7 @@ body {
   }
 
   #footer .wrap {
-    margin: 12vh 0 2vh;
+    margin: 6vh 0 2vh;
   }
 
   #footer .tit h2, #footer .tit h2.cormo {
