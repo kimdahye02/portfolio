@@ -583,7 +583,7 @@ body {
 #sub_vis .sub_mtxt h1 {
   font-weight: 300;
   font-size: 14rem;
-  margin: 6vh 0 4vh 0;
+  margin: 5vh 0 4vh 0;
 }
 
 #sub_vis .sub_mtxt p {
@@ -609,17 +609,38 @@ body {
 .work05_vis_bg { background-image: url(../sub/images/work05_vis.jpg) }
 .work06_vis_bg { background-image: url(../sub/images/work06_vis.jpg) }
 
-#work_tab{float:left; width:600px; height:290px;}
-/* .tabnav{font-size:0;  border:1px solid #ddd;} */
-.tabnav li{display: inline-block;  height:46px; text-align:center; border-right:1px solid #ddd;}
-.tabnav li a:before{content:""; position:absolute; left:0; top:0px; width:100%; height:3px; }
-.tabnav li a.active:before{background:#7ea21e;}
-.tabnav li a.active{border-bottom:1px solid #fff;}
-.tabnav li a{ position:relative; display:block; background: #f8f8f8; color: #000; padding:0 30px; line-height:46px; text-decoration:none; font-size:16px;}
-.tabnav li a:hover,
-.tabnav li a.active{background:#fff; color:#7ea21e; }
-.tabcontent{}
 
+/*sub sns page tab*/
+.tabnav li {
+  display: inline-block;  
+  height:48px; 
+  text-align:center;
+  margin-top: 5vh;
+}
+
+.tabnav li:first-child {
+  margin-right: 20px;
+}
+
+.tabnav li a { 
+  position: relative; 
+  display: block; 
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 0 30px; 
+  line-height: 48px; 
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.tabnav li a:hover,
+.tabnav li a.active {
+  background:#bfff07; 
+  border: 1px solid #bfff07;
+  color:#111; 
+}
 
 
 #sub_desc {
@@ -718,8 +739,25 @@ body {
 }
 
 /* work_nav */
-.sub01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_05.jpg) }
-.sub01 .work_nav_next .bg_wrap { background: url(../images/work_thum_02.jpg) }
+.sub01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
+.sub01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) }
+
+.sub02 .work_nav_prev .bg_wrap { background: url(../images/work_thum_03.jpg) }
+.sub02 .work_nav_next .bg_wrap { background: url(../images/work_thum_01.jpg) }
+
+.sub03 .work_nav_prev .bg_wrap { background: url(../images/work_thum_04.jpg) }
+.sub03 .work_nav_next .bg_wrap { background: url(../images/work_thum_02.jpg) }
+
+.sub04 .work_nav_prev .bg_wrap { background: url(../images/work_thum_05.jpg) }
+.sub04 .work_nav_next .bg_wrap { background: url(../images/work_thum_03.jpg) }
+
+.sub05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
+.sub05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) }
+
+.sub06 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.jpg) }
+.sub06 .work_nav_next .bg_wrap { background: url(../images/work_thum_05.jpg) }
+
+
 
 #work_nav>a:hover .bg_wrap {
   transform: scale(1.3);
