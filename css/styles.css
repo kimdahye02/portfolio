@@ -932,6 +932,10 @@ body {
     font-size: 2.2rem;
   }
 
+  .sub_wrap {
+    margin: 0 7.6vw;
+  }
+
   #visual, .mtxt_wrap {
     height: 60vh;
   }
