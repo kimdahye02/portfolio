@@ -602,7 +602,12 @@ body {
   background-color: #eee;
 }
 
-.sub05_vis_bg { background: url(../sub/images/work05_vis.jpg) }
+.work01_vis_bg { background-image: url(../sub/images/work01_vis.jpg) }
+.work02_vis_bg { background-image: url(../sub/images/work02_vis.jpg) }
+.work03_vis_bg { background-image: url(../sub/images/work03_vis.jpg) }
+.work04_vis_bg { background-image: url(../sub/images/work04_vis.jpg) }
+.work05_vis_bg { background-image: url(../sub/images/work05_vis.jpg) }
+.work06_vis_bg { background-image: url(../sub/images/work06_vis.jpg) }
 
 #sub_desc {
   margin: 20vh 0;
@@ -637,17 +642,21 @@ body {
   color: #b1b1b1;
   line-height: 1.4;
 }
-
-#sub_img01 {
-  /* width: 100%; */
+#work_vis02 {
   padding: 12vh 10vw;
-  background-color: #358696;
 }
-#sub_img01 img {
+
+.work04_vis02 { background-color: #00a0e9; }
+.work05_vis02 { background-color: #358696; }
+
+
+
+
+#work_vis02 img {
   max-width: 100%;
 }
 
-#sub_img02 img {
+#work_img img {
   width: 100%;
 }
 
