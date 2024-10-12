@@ -263,7 +263,6 @@ body {
   margin-right: 20px;
   width: 7vw;
   animation: rotatetxt 6s linear infinite;
-   
 }
 
 
@@ -482,7 +481,7 @@ body {
 
 
 #footer .tit {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 #footer .tit div {
@@ -558,8 +557,210 @@ body {
 #footer .copy p span {
   font-size: 2.4rem;
   vertical-align: bottom;
-
 }
+
+
+/****** sub page ******/
+
+.sub_wrap {
+  margin: 0 8.3vw ; 
+}
+
+#sub_vis .sub_mtxt {
+  color: #fff;
+  padding: 20vh 0;
+}
+
+#sub_vis .sub_mtxt h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#sub_vis .sub_mtxt h1 {
+  font-weight: 300;
+  font-size: 14rem;
+  margin: 6vh 0;
+}
+
+#sub_vis .sub_mtxt p {
+  font-weight: 300;
+  font-size: 5rem;
+  color: #bfff07;
+}
+
+.sub_vis_bg {
+  width: 100%;
+  height: 890px;
+  background: url(../sub/images/work01_vis.jpg) no-repeat top / cover;
+  background-attachment: fixed;
+  background-color: #eee;
+}
+
+#sub_desc {
+  margin: 20vh 0;
+}
+
+#sub_desc .row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10rem;  
+}
+
+#sub_desc .row dt {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2.4vh;
+}
+
+#sub_desc .row dd {
+  font-size: 1.8rem;
+  color: #b1b1b1;
+}
+
+#sub_desc .row dd a {
+  color: #b1b1b1;
+}
+
+#sub_desc .row p {
+  font-size: 1.8rem;
+  color: #b1b1b1;
+  line-height: 1.4;
+}
+
+#sub_img01 {
+  /* width: 100%; */
+  padding: 12vh 10vw;
+  background-color: #358696;
+}
+#sub_img01 img {
+  max-width: 100%;
+}
+
+#sub_img02 img {
+  width: 100%;
+}
+
+#work_nav {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  position: relative;
+  margin-top: 5vh;
+  border-top: 1px solid #cecece;
+}
+
+#work_nav .work_nav_prev {
+  border-right: 1px solid #cecece;
+}
+
+#work_nav>a {
+  display: table-cell;
+  width: 50%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  background-size: 100% auto;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+#work_nav>a .bg_wrap {
+  display: block;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  opacity: 0;
+}
+
+/* work_nav */
+.sub01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_05.jpg) }
+.sub01 .work_nav_next .bg_wrap { background: url(../images/work_thum_02.jpg) }
+
+#work_nav>a:hover .bg_wrap {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+#work_nav>a .bg_color {
+  display: block;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  background: rgba(0,0,0, 0.6);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+#work_nav>a:hover .bg_color {
+  background:rgba(0, 0, 0, .8)
+}
+
+#work_nav>a .work_nav_info {
+  position: relative;
+  z-index: 100;
+  padding-top: 7vh;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+#work_nav>a:hover .work_nav_info {
+  padding-top:0;
+  
+}
+
+#work_nav>a .work_nav_info h3 {
+  position: relative;
+  width: auto;
+  font-size: 6rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+#work_nav>a:hover .work_nav_info h3 {
+  color: #bfff07;
+}
+
+#work_nav>a:hover .work_nav_info h3:after {
+  display: block;
+}
+
+#work_nav>a .work_nav_info p {
+  font-size: 3rem;
+  color:#fff;
+  font-weight: 300;
+  margin-top: 16px;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
+}
+#work_nav>a:hover .work_nav_info p {
+  opacity: 1;
+}
+
+
 
 @media all and (max-width:1440px) {
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
@@ -866,7 +1067,7 @@ body {
   
 }
 
-/*모바일*/
+/*** 모바일 ***/
 @media all and (max-width:576px){
 
   .hd_box_wrap {
@@ -978,7 +1179,7 @@ body {
 
 
   #footer .contact {
-    margin: 7vh 0 6vh;
+    margin: 4vh 0 6vh;
   }
 
   #footer .copy p {
