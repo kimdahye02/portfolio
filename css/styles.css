@@ -772,14 +772,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000;
-  background: rgba(0,0,0, 0.6);
+  background: #080702;
+  background: rgba(8, 7, 2, 0.6);
   -webkit-transition: 500ms;
   transition: 500ms;
 }
 
 #work_nav>a:hover .bg_color {
-  background:rgba(0, 0, 0, .8)
+  background:rgba(8, 7, 2, 0.6);
 }
 
 #work_nav>a .work_nav_info {
