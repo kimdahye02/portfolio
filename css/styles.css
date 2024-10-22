@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  width: 100%;
   background-color: #080702;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
@@ -164,7 +165,7 @@ body {
 }
 
 #visual .mtxt {
-  top: 44%;
+  top: 52%;
   left: 50%;
   width: 100vw;
   transform: translate(-50%, -50%);
@@ -273,7 +274,7 @@ body {
 .mtxt_03 p {
   position: absolute;
   /* left: 0; */
-  top: -28px;
+  top: -26px;
 }
 
 .mtxt_04 h2 {
@@ -600,7 +601,8 @@ body {
 
 #sub_vis .sub_mtxt {
   color: #fff;
-  padding: 20vh 0;
+  padding: 32vh 0 22vh 0;
+  word-wrap:break-word;
 }
 
 #sub_vis .sub_mtxt h2 {
@@ -614,10 +616,15 @@ body {
   margin: 5vh 0 4vh 0;
 }
 
+#sub_vis .sub_mtxt h1 .mo {
+  display: none;
+}
+
 #sub_vis .sub_mtxt p {
   font-weight: 300;
   font-size: 5rem;
   color: #bfff07;
+  line-height: 1.4;
 }
 
 .sub_vis_bg {
@@ -907,6 +914,14 @@ body {
     font-size: 2.8rem;
   }
 
+  .mtxt_03 p {
+    top: -18px;
+  }
+
+  .mtxt_04 p {
+    top: -20px;
+  }
+
   #work .work_tit h2 {
     font-size: 14rem;
   }
@@ -945,7 +960,7 @@ body {
   }
 
   #sub_vis .sub_mtxt {
-    padding: 14vh 0;
+    padding: 24vh 0 14vh 0;
   }
 
   #sub_vis .sub_mtxt h2 {
@@ -970,7 +985,14 @@ body {
 
   #sub_desc .row {
     gap: 8rem;
+    flex-wrap: wrap;
   }
+
+  #sub_desc .over .pc {
+    display: none;
+  }
+
+  
 
   #work_nav>a, #work_nav>a .bg_wrap, #work_nav>a .bg_color {
     height: 400px;
@@ -1026,7 +1048,7 @@ body {
   }
 
   #visual, .mtxt_wrap {
-    height: 60vh;
+    height: 80vh;
   }
 
   #visual .mtxt p {
@@ -1041,8 +1063,8 @@ body {
   }
 
   #scroll_flow {
-    height: 6vh;
-    line-height: 6vh;
+    height: 7vh;
+    line-height: 7vh;
   }
 
   #scroll_flow .flow_wrap div {
@@ -1322,6 +1344,10 @@ body {
     margin: 0px 10px;
   }
 
+  #sub_vis .sub_mtxt {
+    padding: 18vh 0 8vh 0;
+  }
+
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
     font-size: 4.6rem;
   }
@@ -1340,8 +1366,8 @@ body {
   }
 
   #scroll_flow {
-    height: 7vh;
-    line-height: 7vh;
+    height: 6vh;
+    line-height: 6vh;
   }
 
   #scroll_flow .flow_wrap img {
@@ -1429,8 +1455,22 @@ body {
   /* sub page */
 
   #sub_vis .sub_mtxt p {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
+
+  #sub_vis .sub_mtxt h2 {
+    font-size: 2rem;
+  }
+
+  #sub_vis .sub_mtxt h1 {
+    font-size: 5rem;
+    margin: 3vh 0 2.2vh 0;
+  }
+
+  #sub_vis .sub_mtxt p {
+    font-size: 2rem;
+  }
+
   #work_nav>a {
     display: flex;
     width: 100%;
