@@ -54,8 +54,6 @@ body {
   left: 0px;
   right: 0px;
   width: calc(100vw - var(--scrollbar-width));
-  padding: 0px 1.333rem;
-  /* height: 5rem; */
   display: flex;
   -webkit-box-pack: start;
   justify-content: flex-start;
