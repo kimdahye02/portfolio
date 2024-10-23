@@ -2,7 +2,8 @@
 @import "reset.css";
 
 html {
-  font-size: 10px
+  font-size: 10px;
+  scroll-behavior:smooth;
 }
 .cormo {
   font-family: "Cormorant", serif;
@@ -14,6 +15,7 @@ html {
 body {
   width: 100%;
   background-color: #080702;
+  scroll-behavior:smooth;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
