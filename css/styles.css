@@ -1299,6 +1299,10 @@ body {
     font-size: 3.2rem;
   }
 
+  #work_vis02 {
+    padding: 10vw;
+  }
+
   .sub_vis_bg {
     height: 480px;
   }
