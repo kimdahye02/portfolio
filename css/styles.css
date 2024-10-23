@@ -16,7 +16,7 @@ body {
   width: 100%;
   background-color: #080702;
   scroll-behavior:smooth;
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
 }
 
 .clearfix::after {
