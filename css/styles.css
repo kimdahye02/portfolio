@@ -775,8 +775,11 @@ body {
 }
 
 /* work_nav */
+/* .work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
+.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) } */
+
 .work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
-.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) }
+.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_05.jpg) }
 
 .work02 .work_nav_prev .bg_wrap { background: url(../images/work_thum_03.jpg) }
 .work02 .work_nav_next .bg_wrap { background: url(../images/work_thum_01.gif) }
@@ -787,7 +790,10 @@ body {
 .work04 .work_nav_prev .bg_wrap { background: url(../images/work_thum_05.jpg) }
 .work04 .work_nav_next .bg_wrap { background: url(../images/work_thum_03.jpg) }
 
-.work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
+/* .work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
+.work05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) } */
+
+.work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.gif) }
 .work05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) }
 
 .work06 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.gif) }
