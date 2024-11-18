@@ -682,6 +682,11 @@ body {
   margin: 20vh 0;
 }
 
+#sub_desc.work06{
+  margin:0;
+  margin-bottom: 20vh;
+}
+
 #sub_desc .row {
   display: flex;
   align-items: flex-start;
@@ -711,6 +716,66 @@ body {
   color: #b1b1b1;
   line-height: 1.4;
 }
+#sub_desc .btn {
+  display: inline-block;
+  margin-top: 3.4vh;
+}
+
+#sub_desc .btn a {
+  color: #fff;
+}
+
+#sub_desc .btn a b {
+  position: relative;
+  margin-right: 8px;
+}
+
+#sub_desc .btn a b::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width:100%;
+  border-bottom: solid 1px #fff;
+  inset: 0 0 -4px 0;
+
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#sub_desc .btn a:hover b::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  }
+
+#sub_desc .btn a:hover b::before {
+  transition: transform .4s ease;
+}
+
+
+
+
+#sub_desc .btn a img {
+  width: 20px;
+  animation-name: aico_arrow-btn;
+  animation-duration:1.5s;
+  animation-iteration-count:infinite;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aico_arrow-btn{
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translateX(10px)
+  }
+}
+
+
+
 #work_vis02 {
   padding: 12vh 10vw;
 }
@@ -775,11 +840,9 @@ body {
 }
 
 /* work_nav */
-/* .work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
-.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) } */
-
 .work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
-.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_05.jpg) }
+.work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) }
+
 
 .work02 .work_nav_prev .bg_wrap { background: url(../images/work_thum_03.jpg) }
 .work02 .work_nav_next .bg_wrap { background: url(../images/work_thum_01.gif) }
@@ -790,10 +853,7 @@ body {
 .work04 .work_nav_prev .bg_wrap { background: url(../images/work_thum_05.jpg) }
 .work04 .work_nav_next .bg_wrap { background: url(../images/work_thum_03.jpg) }
 
-/* .work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
-.work05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) } */
-
-.work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.gif) }
+.work05 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
 .work05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) }
 
 .work06 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.gif) }
@@ -1316,6 +1376,11 @@ body {
   #sub_desc {
     margin: 10vh 0;
   }
+
+  #sub_desc.work06 {
+    margin: 0;
+    margin-bottom: 10vh;
+}
 
   #sub_desc .row {
     gap: 4rem;
