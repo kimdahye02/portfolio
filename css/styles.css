@@ -461,10 +461,11 @@ body {
 
 .work_list .img_box span {
   position: absolute;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
   padding: 12px 18px;
   border-radius: 50px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: #fff;
 }
