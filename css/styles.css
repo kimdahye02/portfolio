@@ -1366,7 +1366,7 @@ body {
 
   #sub_vis .sub_mtxt h1 {
     font-size: 7rem;
-    margin: 4vh 0 3.2vh 0;
+    margin: 4vh 0 3vh 0;
   
   }
 
@@ -1542,9 +1542,6 @@ body {
 
   /* sub page */
 
-  #sub_vis .sub_mtxt p {
-    font-size: 1.8rem;
-  }
 
   #sub_vis .sub_mtxt h2 {
     font-size: 2rem;
@@ -1552,11 +1549,15 @@ body {
 
   #sub_vis .sub_mtxt h1 {
     font-size: 5rem;
-    margin: 3vh 0 2.2vh 0;
+    margin: 3vh 0 2vh 0;
   }
 
   #sub_vis .sub_mtxt p {
     font-size: 2rem;
+  }
+
+  .tabnav li a {
+    font-size: 1.4rem;
   }
 
   #work_nav>a {
