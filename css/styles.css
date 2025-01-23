@@ -70,11 +70,11 @@ body {
   z-index: -1;
   inset: -1px 0px 0px;
   transform: translate3d(0px, 0px, 0px);
-  background-image: linear-gradient(rgba(8, 7, 2, 0.5), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   color: rgb(255, 255, 255);
   transition: backdrop-filter 0.3s linear, background-color 0.3s linear;
   backdrop-filter: blur(30px);
-  background-color: rgba(8, 7, 2, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hd_box_wrap {
@@ -882,14 +882,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #080702;
-  background: rgba(8, 7, 2, 0.6);
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
   -webkit-transition: 500ms;
   transition: 500ms;
 }
 
 #work_nav>a:hover .bg_color {
-  background:rgba(8, 7, 2, 0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 #work_nav>a .work_nav_info {
