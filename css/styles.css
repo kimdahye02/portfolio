@@ -275,6 +275,7 @@ body {
   position: absolute;
   /* left: 0; */
   top: -40px;
+  color: #999;
 }
 
 .mtxt_04 h2 {
@@ -285,6 +286,7 @@ body {
   position: absolute;
   right: 0;
   top: -40px;
+  color: #999;
 }
 
 .mtxt_04 img {
