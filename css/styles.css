@@ -36,7 +36,7 @@ body {
   background-position: 0 0;
   background-size: auto;
   pointer-events: none;
-  opacity: 0.03;
+  opacity: 0.02;
   transition: opacity .1s cubic-bezier(.445, .05, .55, .95); 
   visibility: visible;
 }
