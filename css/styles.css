@@ -280,6 +280,7 @@ body {
 }
 
 @keyframes rotatetxt {
+  
   100% {
     transform: rotate(360deg);
   }
@@ -311,7 +312,7 @@ body {
   vertical-align: middle;
   margin-right: 20px;
   width: 6.5vw;
-  animation: rotatetxt 6s linear infinite;
+  animation: rotatetxt 4s linear infinite;
 }
 
 
@@ -445,12 +446,18 @@ body {
 }
 
 .work_list li {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
-/* .js-load {
-  display: none;
-} */
+.js-load {
+  opacity:0;
+  /* transform: translateY(300px);   */
+  /* max-width:100%; */
+  transform: translate3d(0, 300px, 0);
+}
+
+
+
 
 .work_list .img_box {
   display: block;

@@ -15,12 +15,24 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--AOS CSS CDN-->
+
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <link rel="icon" href="images/favicon.ico">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="js/common.js"></script>
 </head>
 <body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--AOS CSS CDN-->
+  <script>
+    AOS.init({
+      easing : "ease",
+      duration : "1000",
+
+    });
+    
+  </script>
   
   <!-- header -->
   <header id="header" class="clearfix">
@@ -97,7 +109,7 @@
     <!-- work contents -->
     <div id="work_contents">
       <ul class="work_list">
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work06.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_06.jpg" alt="">
@@ -108,7 +120,7 @@
           <p class="tit">뮤인비</p>
         </li>
 
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work05.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_05.jpg" alt="">
@@ -119,7 +131,7 @@
           <p class="tit">오마이양대창</p>
         </li>
 
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work04.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_04.jpg" alt="">
@@ -130,7 +142,7 @@
           <p class="tit">반올림피자</p>
         </li>
 
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work03.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_03.jpg" alt="">
@@ -141,7 +153,7 @@
           <p class="tit">보배반점</p>
         </li>        
 
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work02.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_02.jpg" alt="">
@@ -152,7 +164,7 @@
           <p class="tit">areb</p>
         </li>
 
-        <li class="js-load">
+        <li class="js-load" data-aos="fade-up">
           <a href="sub/work01.html" target="_blank" class="img_box">
             <div>
               <img src="images/work_thum_01.gif" alt="">

@@ -17,6 +17,8 @@ $(function(){
     //     }
     // });
 
+
+
     //서브 sns 탭메뉴
     $('.tabcontent > div').hide();
     $('.tabnav a').click(function () {
@@ -25,9 +27,9 @@ $(function(){
       $(this).addClass('active');
       return false;
     }).filter(':eq(0)').click();
-    
+
+
 
     
 });
-
 
