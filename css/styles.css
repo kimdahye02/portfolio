@@ -45,6 +45,11 @@ body {
   color: #bfff07;
 }
 
+::selection {
+  background:#bfff07; 
+  color:#000;
+}
+
 /*** header ***/
 #header {
   height: 11.4vh;
@@ -73,7 +78,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   color: rgb(255, 255, 255);
   transition: backdrop-filter 0.3s linear, background-color 0.3s linear;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(20px);
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -193,9 +198,23 @@ body {
 #visual .mtxt .point_box {
   width: 14vw;
   display: inline-block;
-  border-radius: 60px;
+  border-radius: 8px;
+  margin-left: 8px;
   vertical-align: text-bottom;
   overflow: hidden;
+  animation: scale 4s;
+}
+
+@keyframes scale {
+  0%
+   {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
 }
 
 #visual .mtxt p {
@@ -203,10 +222,10 @@ body {
   font-size: 4rem;
 }
 
-.mtxt_01 {animation: ani_01 5s;}
-.mtxt_02 {transform: translate(11vw, 0px); animation: ani_02 6s; }
-.mtxt_03 {transform: translate(-19vw, 0px); animation: ani_03 7s;}
-.mtxt_04 {animation: ani_04 8s;}
+.mtxt_01 {animation: ani_01 3s;}
+.mtxt_02 {transform: translate(11vw, 0px); animation: ani_02 4s; }
+.mtxt_03 {transform: translate(-19vw, 0px); animation: ani_03 5s;}
+.mtxt_04 {animation: ani_04 6s;}
 
 @keyframes ani_01 {
   from {
@@ -437,7 +456,7 @@ body {
   display: block;
   position: relative;
   padding-bottom: 44%;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   min-height: 185px;
 }
