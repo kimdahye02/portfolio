@@ -446,7 +446,7 @@ body {
 }
 
 .work_list li {
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .js-load {
