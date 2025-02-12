@@ -972,6 +972,57 @@ body {
 
 
 
+
+
+
+/*work02 page*/
+
+
+.work02_wrap { 
+  overflow: hidden;
+}
+.work02_roller {
+  display: flex;
+}
+.work02_rolling_list { 
+  display: flex;
+}
+.work02_wrap .work02_rolling_list .item { 
+  width: 900px; 
+  /* height: 180px; */
+  /* border-radius: 20px; */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+  /* background: #0339fb; */
+  color: #fff;
+  margin: 2vw 1vw;
+}
+.work02_roller .work02_rolling_list.original {
+  animation: rollingTop1 40s linear infinite;
+}
+.work02_roller .work02_rolling_list.clone {
+  animation: rollingTop2 40s linear infinite;
+}
+@keyframes rollingTop1 {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-100%); }
+  50.01% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+@keyframes rollingTop2 {
+  0% { transition: translateX(0); }
+  100% { transform: translateX(-200%); }
+}
+
+/* hover시 일시정지 */
+.work02_roller:hover .work02_rolling_list {
+   animation-play-state: paused; 
+}
+
+
+
 @media all and (max-width:1470px) {
 
   .hd_box_wrap {

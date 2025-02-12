@@ -29,6 +29,15 @@ $(function(){
     }).filter(':eq(0)').click();
 
 
+    //work02
+    let roller = document.querySelector('.work02_roller .work02_rolling_list');
+    roller.id = 'roller1';
+    let clone = roller.cloneNode(true)
+    clone.id = 'roller2';
+    document.querySelector('.work02_roller').appendChild(clone);
+    roller.classList.add('original');
+    clone.classList.add('clone');
+
 
     
 });
