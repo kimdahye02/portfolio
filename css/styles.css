@@ -972,11 +972,7 @@ body {
 
 
 
-
-
-
 /*work02 page*/
-
 
 .work02_wrap { 
   overflow: hidden;
@@ -988,7 +984,7 @@ body {
   display: flex;
 }
 .work02_wrap .work02_rolling_list .item { 
-  width: 900px; 
+  width: 1080px; 
   /* height: 180px; */
   /* border-radius: 20px; */
   display: flex; 
