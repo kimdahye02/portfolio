@@ -1234,6 +1234,8 @@ body {
 /****** 태블릿 가로 : 769px-1023px *******/
 @media all and (min-width:768px) and (max-width:1024px){
 
+  
+
 }
 
 
@@ -1417,6 +1419,11 @@ body {
   }
   #work_nav>a .work_nav_info p {
     font-size: 1.8rem;
+  }
+
+  /* work02 */
+  .work02_wrap .work02_rolling_list .item {
+    width: 560px;
   }
 
 }
@@ -1846,12 +1853,23 @@ body {
     font-size: 2.8rem;
   }
 
+
+  /* work02 */
+  .work02_wrap .work02_rolling_list .item {
+    width: 420px;
+  }
+
 }
 
 @media all and (max-width:375px){
 
   #sub_vis .sub_mtxt h1 .mo {
     display: block;
+  }
+
+  /* work02 */
+  .work02_wrap .work02_rolling_list .item {
+    width: 320px;
   }
 
 }
