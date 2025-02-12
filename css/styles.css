@@ -882,12 +882,12 @@ body {
 }
 
 /* work_nav */
-.work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_02.jpg) }
+.work01 .work_nav_prev .bg_wrap { background: url(../images/work_thum_03.jpg) }
 .work01 .work_nav_next .bg_wrap { background: url(../images/work_thum_06.jpg) }
 
 
-.work02 .work_nav_prev .bg_wrap { background: url(../images/work_thum_03.jpg) }
-.work02 .work_nav_next .bg_wrap { background: url(../images/work_thum_01.gif) }
+.work02 .work_nav_prev .bg_wrap { background: url(../images/work_thum_06.jpg) }
+.work02 .work_nav_next .bg_wrap { background: url(../images/work_thum_05.jpg) }
 
 .work03 .work_nav_prev .bg_wrap { background: url(../images/work_thum_04.jpg) }
 .work03 .work_nav_next .bg_wrap { background: url(../images/work_thum_02.jpg) }
@@ -899,7 +899,7 @@ body {
 .work05 .work_nav_next .bg_wrap { background: url(../images/work_thum_04.jpg) }
 
 .work06 .work_nav_prev .bg_wrap { background: url(../images/work_thum_01.gif) }
-.work06 .work_nav_next .bg_wrap { background: url(../images/work_thum_05.jpg) }
+.work06 .work_nav_next .bg_wrap { background: url(../images/work_thum_02.jpg) }
 
 
 
