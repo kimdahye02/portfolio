@@ -1393,6 +1393,10 @@ body {
     background-attachment: scroll;
   }
 
+  .sub_vis_bg {
+    background-attachment:inherit;
+  }
+
   #sub_desc .row {
     gap: 5.4rem;
     flex-wrap: wrap;
@@ -1566,9 +1570,7 @@ body {
     margin: 0 6vw;
   }
 
-  .sub_vis_bg {
-    background-attachment:inherit;
-  }
+  
 
   
 
