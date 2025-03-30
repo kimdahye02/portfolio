@@ -1103,6 +1103,10 @@ body {
 
   /*** sub page ***/
 
+  .sub_vis_bg {
+    background-attachment: scroll;
+  }
+
   #sub_vis .sub_mtxt h2 {
     font-size: 2.6rem;
   }
