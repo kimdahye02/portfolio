@@ -1471,7 +1471,8 @@ body {
     font-size: 2.4rem;
   }
 
- 
+  
+
 
   #visual .mtxt h2.cormo, #visual .mtxt h2 {
     font-size: 7rem;
@@ -1564,6 +1565,12 @@ body {
   .sub_wrap {
     margin: 0 6vw;
   }
+
+  .sub_vis_bg {
+    background-attachment:inherit;
+  }
+
+  
 
   #sub_vis .sub_mtxt {
     padding: 22vh 0 12vh 0;
